@@ -45,7 +45,7 @@
     ],
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name":"Prometheus 9090", "port":9090}, {"name":"Grafana", "port":3000}, {"name":"Exporter","port":"9100"}],
+        "dashboards": [{"name":"Prometheus 9090", "port":9090}, {"name":"Exporter", "port": 9100}, {"name":"Grafana","port": 3000}],
         "uilayout": "editor-terminal",
         "uisettings": "yaml",
         "uimessage1": "\u001b[32mPrometheus Server/Exporter/Grafana.\u001b[m\r\n"

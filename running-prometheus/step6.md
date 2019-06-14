@@ -7,6 +7,7 @@ visualize things much fancier for us.
 ```
 docker run -d \
  --net=host \
+ --name grafana \
  -p 3000:3000 grafana/grafana
 ```{{execute}}
 

@@ -14,7 +14,7 @@ docker run -d \
   -v "/sys:/host/sys" \
   -v "/:/rootfs" \
   --net=host \
-  --name=promethus \
+  --name node-exporter \
   quay.io/prometheus/node-exporter:latest 
 ```{{execute}}
 
