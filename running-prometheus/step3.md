@@ -1,10 +1,8 @@
 Prometheus can be run in several different ways one of the most popular ways is via a container as follows:
 
 ```bash
-mkdir -p /prom/data
 docker run -d --net=host \
     -v /root/promconfig.yml:/etc/prometheus/prometheus.yml \
-    -v /prom/data:/prometheus \
     --name prom-server \
     prom/prometheus
 ```{{execute}}

@@ -15,10 +15,7 @@ docker run -d \
   -v "/:/rootfs" \
   --net="host" \
   --name=promethus \
-  quay.io/prometheus/node-exporter:latest \
-    -collector.procfs /host/proc \
-    -collector.sysfs /host/sys \
-    -collector.filesystem.ignored-mount-points "^/(sys|proc|dev|host|etc)($|/)"
+  quay.io/prometheus/node-exporter:latest 
 ```{{execute}}
 
 ## Task

@@ -1,15 +1,7 @@
-# Download Prometheus
+# Configure Prometheus
 
-To download Prometheus you need to run the following command:
-
-`wget https://github.com/prometheus/prometheus/releases/download/v2.9.2/prometheus-2.9.2.linux-amd64.tar.gz` {{excecute}}
- 
-Once you have downloaded it you need to extract it by running the following: 
- 
- `tar -zxvf prometheus-2.9.2.linux-amd64.tar.gz` {{execute}}
-
-
-Next we want to go ahead and create the configuration file that we desribed in the previous step like so:
+Now we want to go ahead and create the configuration file that we desribed in the previous step so that we can 
+load that configuration into our Prometheus container:
 
 
 <pre class="file" data-filename="promconfig.yml" data-target="replace"> 

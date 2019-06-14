@@ -5,15 +5,15 @@ convention that was outlined in the documentation. This allows for the queries t
 Some examples would be:
 
 * Find specific metric with a label
-`node_network_receive_packets{job="prometheus",group="prom"}`{{execute}}
+`node_network_receive_packets_total{job="prometheus",group="prom"}`{{copy}}
 
 * Find the sum of the value of all metrics matching the above query
 
-`sum(node_network_receive_packets{job="prometheus",group="prom"})`{{execute}}
+`sum(node_network_receive_packets_total{job="prometheus",group="prom"})`{{copy}}
 
 * Count the number of metrics returned by this query
 
-`count(node_network_receive_packets{job="prometheus",group="prom"})`{{execute}}
+`count(node_network_receive_packets_total{job="prometheus",group="prom"})`{{copy}}
 
 ## Task
 
