@@ -17,5 +17,5 @@ Some examples would be:
 
 ## Task
 
-Check out the `graph` Prometheus Server page here https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/graph
+Check out the `graph` Prometheus Server page [prom-server](https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/graph)
 and run some of the queries above. 

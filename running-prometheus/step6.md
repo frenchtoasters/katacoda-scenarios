@@ -13,7 +13,7 @@ docker run -d \
 
 ## Tasks
 
-* Now that Grafana is started we can view the Dashboard at http://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
+* Now that Grafana is started we can view the Dashboard [grafana](http://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/)
 
 * Once that page is up you will need to login with User:`admin` Password:`admin` and just set a new one after you have 
 logged in. 
