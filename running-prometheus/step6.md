@@ -4,7 +4,11 @@ visualize things much fancier for us.
 
 * First we need to star the `Grafana Container`
 
-`docker run -d -p 3000:3000 grafana/grafana`{{execute}}
+```
+docker run -d \
+ --net=host \
+ -p 3000:3000 grafana/grafana
+```{{execute}}
 
 ## Tasks
 
