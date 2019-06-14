@@ -11,7 +11,7 @@ docker run -d \
  -p 3000:3000 grafana/grafana
 ```{{execute}}
 
-## Tasks
+## TODO
 
 * Now that Grafana is started we can view the Dashboard [grafana](http://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/)
 

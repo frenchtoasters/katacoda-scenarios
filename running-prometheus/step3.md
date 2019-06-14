@@ -10,7 +10,7 @@ docker run -d --net=host \
 Once started the [prom-server](https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com) is viewable 
 on port [9090](https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com) 
 
-## Task
+## TODO
 Launch the above container and verify its running
 
 `docker ps`{{execute}}

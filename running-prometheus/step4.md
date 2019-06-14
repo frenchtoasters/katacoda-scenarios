@@ -18,7 +18,7 @@ docker run -d \
   quay.io/prometheus/node-exporter:latest 
 ```{{execute}}
 
-## Task
+## TODO
 
 * Launch the above container
 

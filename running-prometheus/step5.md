@@ -15,7 +15,7 @@ Some examples would be:
 
 `count(node_network_receive_packets_total{job="prometheus",group="prom"})`{{copy}}
 
-## Task
+## TODO
 
 Check out the `graph` Prometheus Server page [prom-server](https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/graph)
 and run some of the queries above. 
