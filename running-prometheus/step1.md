@@ -64,7 +64,7 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['localhost:9090', 'localhost:9100']
-      labels: 
-        group: 'prometheus-server'
+    - targets: ['localhost:9090']
+      labels:
+        group: "prom"
 ```

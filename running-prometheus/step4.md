@@ -20,11 +20,13 @@ docker run -d \
 
 ## Task
 
-Launch the above container
+* Launch the above container
 
+* Verify it is up and working 
 
-## Visualize
+`docker ps`{{execute}}
 
-To view what the exporter is returning to the Prom-server:
+* To view what the exporter is returning to the Prom-server:
 
 `curl localhost:9100/metrics`{{execute}}
+

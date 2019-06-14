@@ -19,7 +19,8 @@ docker run -d \
 logged in. 
 
 * After you are logged in you then just need to go to `Add data source` and select `Prometheus`. The settings that pop up
-should be for `localhost:9090` as they are the Prometheus Defaults. 
+should be for `localhost:9090` as they are the Prometheus Defaults. You will just need to fill in the `URL` field with 
+`localhost:9090`{{copy}} and click `Save & Test` as long as you get a `Data Source is working` green check mark you are good.
 
 * Once the data source is added you can go to the `+` button on the left hand side and select `Create -> Dashboard`. 
 You should then be able select `Prometheus` as the data source and just put one of the queries we defined previously 
