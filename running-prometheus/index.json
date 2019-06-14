@@ -1,0 +1,56 @@
+{
+    "pathwayTitle": "Prometheus",
+    "title": "Configure and Run Prometheus",
+    "description": "Learn how to configure ",
+    "difficulty": "Medium",
+    "time": "15-20 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Prometheus configuration file",
+                "text": "step1.md"
+            },
+            {
+                "title": "Download and Extract Prometheus",
+                "text": "step2.md"
+            },
+            {
+                "title": "Prometheus start options",
+                "text": "step3.md"
+            },
+            {
+                "title": "What is an Exporter, how do I run it?",
+                "text": "step4.md"
+            },
+            {
+                "title": "Prometheus Queries",
+                "text": "step5.md"
+            },
+            {
+                "title": "Grafana Dashboards",
+                "text": "step6.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [
+        "promconfig.yml"
+    ],
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [{"name":"Prometheus 9090", "port":9090}, {"name":"Grafana", "port":3000}, {"name":"Exporter","port":"9173"}],
+        "uilayout": "editor-terminal",
+        "uisettings": "yaml",
+        "uimessage1": "\u001b[32mPrometheus Server/Exporter.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker-direct"
+    }
+}
