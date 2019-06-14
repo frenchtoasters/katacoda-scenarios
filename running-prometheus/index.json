@@ -45,10 +45,10 @@
     ],
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name":"Prometheus 9090", "port":9090}, {"name":"Grafana", "port":3000}, {"name":"Exporter","port":"9173"}],
+        "dashboards": [{"name":"Prometheus 9090", "port":9090}, {"name":"Grafana", "port":3000}, {"name":"Exporter","port":"9100"}],
         "uilayout": "editor-terminal",
         "uisettings": "yaml",
-        "uimessage1": "\u001b[32mPrometheus Server/Exporter.\u001b[m\r\n"
+        "uimessage1": "\u001b[32mPrometheus Server/Exporter/Grafana.\u001b[m\r\n"
     },
     "backend": {
         "imageid": "docker-direct"

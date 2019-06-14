@@ -1,1 +1,0 @@
-ssh root@docker "docker pull prom/prometheus:latest && docker pull quay.io/prometheus/node-exporter:latest && docker pull grafana/grafana:latest"
